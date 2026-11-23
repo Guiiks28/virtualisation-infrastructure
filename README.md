@@ -55,6 +55,17 @@ La haute disponibilité a été activée et testée dans le cluster vSphere. Le 
 | Migration de `alpine-demo` | Test concluant ; aucune perte observée pendant l'essai consigné. |
 | Haute disponibilité vSphere | Activée et testée avec succès dans le laboratoire. |
 
+## Captures du laboratoire
+
+### vCenter : les deux hôtes ESXi
+![Inventaire vCenter avec les deux hôtes ESXi](captures/01-vcenter-deux-hotes.png)
+
+### Stockage partagé NFS
+![Banque de données NFS dans vSphere](captures/02-stockage-nfs.png)
+
+### Migration de la machine virtuelle
+![alpine-demo sur ESXi 2 après migration](captures/03-migration-alpine-demo.png)
+
 ## Reprise d'activité : RTO et RPO
 
 L'étude de cas aborde une sauvegarde quotidienne, avec un **RTO cible d'une heure** et un **RPO de 24 heures**. Le RTO correspond au délai de remise en service visé ; le RPO correspond à la quantité maximale de données que l'on accepte de perdre. Ce sont les objectifs du scénario étudié, distincts des résultats des tests de migration et de haute disponibilité.
