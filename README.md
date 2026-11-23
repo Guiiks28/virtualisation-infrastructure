@@ -1,6 +1,6 @@
 # Projet de virtualisation
 
-Ce dépôt présente mon laboratoire de virtualisation réalisé dans le cadre du module **Administrer et sécuriser les infrastructures**. J'y ai étudié Proxmox VE, VMware ESXi et vCenter, puis monté une infrastructure vSphere à deux hôtes avec stockage partagé, migration de machine virtuelle et haute disponibilité.
+Ce dépôt présente mon laboratoire de virtualisation réalisé dans le cadre du module **Administrer et sécuriser les infrastructures virtualisées**. J'y ai étudié Proxmox VE, VMware ESXi et vCenter, puis monté une infrastructure vSphere à deux hôtes avec stockage partagé, migration de machine virtuelle et haute disponibilité.
 
 ## Objectifs
 
