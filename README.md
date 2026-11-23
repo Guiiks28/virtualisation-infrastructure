@@ -13,7 +13,7 @@ Ce dépôt présente mon laboratoire de virtualisation réalisé dans le cadre d
 
 ## Architecture du laboratoire
 
-![Architecture du laboratoire de virtualisation](docs/architecture.svg)
+![Architecture du laboratoire de virtualisation](architecture.svg)
 
 L'environnement VMware comprend vCenter, deux hôtes ESXi et un stockage partagé NFS 3. Le serveur `pve1`, auparavant utilisé comme hôte Proxmox, a été réaffecté au rôle de NAS. Les deux hôtes ESXi sont ajoutés à l'inventaire vCenter et utilisent la banque de données partagée. ESXi 2 sert aux tests et aux migrations. La VM `alpine-demo` est utilisée pour vérifier les opérations de reprise et de migration.
 
